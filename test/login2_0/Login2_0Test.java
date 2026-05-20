@@ -59,3 +59,36 @@ public class Login2_0Test {
                 : "Username or password incorrect, please try again.";
     }
 }
+/*
+I also recieved help from my tutors ofentse and mpho
+*/
+/*
+    Code Attribution:
+    *Source: Oracle Java Documentation | Stack Overflow
+    *Prompt Used: How do I check if a string contains a character and limit its length in Java?
+    *Date Accessed: 14 April 2026
+    *Description: Used String methods such as contains() and length() to validate username format.
+    *Modification: Combined two conditions (underscore check + length restriction) into one boolean return statement.
+    *URL: https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
+    *Author: Calvin Ern
+*/
+/*
+    Code Attribution:
+    *Source: Oracle Java Documentation | GeeksforGeeks
+    *Prompt Used: How do I check for uppercase letters, numbers, and special characters in a Java string?
+    *Date Accessed: 14 April 2026
+    *Description: Used Character.isUpperCase, Character.isDigit, and looping through string characters.
+    *Modification: Simplified logic into three boolean flags for readability in a beginner-level program.
+    *URL: https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html
+    *Author: Calvin Ern
+*/
+/*
+    Code Attribution:
+    *Source: Oracle Java Regex Documentation | Stack Overflow
+    *Prompt Used: How do I validate a South African phone number using regex in Java?
+    *Date Accessed: 14 April 2026
+    *Description: Used regular expression ^\\+27[0-9]{9}$ to validate international SA numbers.
+    *Modification: Adjusted regex to match assignment requirement (international code + fixed length format).
+    *URL: https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html
+    *Author: Calvin Ern
+*/
